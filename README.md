@@ -1,4 +1,4 @@
-# Introdução à Programação (IP) - Trabalho Final
+# FURB - Introdução à Programação - Trabalho Final
 
 Prazo máximo para definir as equipes: 28/11/2020.  
 Prazo máximo para apresentação do trabalho: 09/12/2020 (quinta).  
@@ -26,8 +26,6 @@ Ter três classes descritas a seguir …
 
 ## CacaMain
 
-![CacaMain](out/src/CacaMain/CacaMain.svg "CacaMain")  
-
 - [x] os atributos desta classe são *private*, e são *palavras* e *mapa*;  
 - [x] o método main só instância o construtor desta classe;  
 - [ ] o método construtor instância os objetos das classes: *CacaPalavras* e *CacaMapa*, para iniciar os atributos *palavras* e *mapa*;  
@@ -41,8 +39,6 @@ Ter três classes descritas a seguir …
   - consistir se foi digitado uma opção errada "opção errada!".
 
 ## CacaPalavras
-
-![CacaPalavras](out/src/CacaPalavras/CacaPalavras.svg "CacaPalavras")  
 
 - [x] o atributo *qtdLinha* é *private* e *final*, e define a quantidade de linhas da matriz palavras;  
 - [x] o atributo *qtdColuna* é *private* e *final*, e define a quantidade de colunas da matriz palavras;  
@@ -59,8 +55,6 @@ Ter três classes descritas a seguir …
 - o método *repostas* é *public*, e imprime a lista de palavras identificando se “achou" (no caso mostrando linha/coluna) ou “NÃO achou” a palavra no mapa.  
 
 ## CacaMapa
-
-![CacaMapa](out/src/CacaMapa/CacaMapa.svg "CacaMapa")  
 
 - [x] o atributo *qtdLinha* é *private* e *final*, e define a quantidade de linhas da matriz mapa;  
 - [x] o atributo *qtdColuna* é *private* e *final*, e define a quantidade de colunas da matriz mapa;  
@@ -89,24 +83,5 @@ o método mapaEntrada é *private*, e deve conter somente:
 
 ## Atenção
 
-O código **deve** seguir as informações descritas nos diagramas de Classes referente aos nomes das classes, atributos, métodos, parâmetros e qualificadores (visibilidade: public/private). Novas variáveis primitivas podem ser criadas dentro dos métodos, mas não podem ser criadas novas classes, atributos e métodos (só os que foram definidos no diagrama de classes abaixo).  
+O código **deve** seguir as informações descritas nos diagramas de Classes referente aos nomes das classes, atributos, métodos, parâmetros e qualificadores (visibilidade: public/private). Novas variáveis primitivas podem ser criadas dentro dos métodos, mas não podem ser criadas novas classes, atributos e métodos.  
 
-![-- Diagrama de Classe --](out/src/CacaMain/CacaMainGeral.svg "-- Diagrama de Classe --")  
-
-![Ícones de Visibilidade - fonte: https://plantuml.com/class-diagram](iconesVisibilidade.png)  
-
-## Exemplo da execução
-
-As mensagens mostradas ao executar o código deste trabalho devem seguir o que é mostrado ao executar o [TrabalhoFinal.jar](TrabalhoFinal.jar).
-
-### Como executar um JAR
-
-- Abra o console do Windows pressionando a tecla Windows e depois digitando “cmd" e pressionar “enter”. Se for Linux ou MacOS abra o “terminal"  
-![cmd Windows](cmdWindows.png)  
-- Agora mude de pasta, para pasta que tem o **TrabalhoFinal.jar**. No meu caso para pasta de Download  
-![pasta download](pastaDownload.png)
-- E para executar digitar
-
-  > java -jar TrabalhoFinal.jar
-
-- Pronto, é só usar ... e ver como deve ficar as saídas.
