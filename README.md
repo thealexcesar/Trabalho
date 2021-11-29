@@ -62,8 +62,8 @@ Ter três classes descritas a seguir …
 
 ![CacaMapa](out/src/CacaMapa/CacaMapa.svg "CacaMapa")  
 
-- [ ] o atributo *qtdLinha* é *private* e *final*, e define a quantidade de linhas da matriz mapa;  
-- [ ] o atributo *qtdColuna* é *private* e *final*, e define a quantidade de colunas da matriz mapa;  
+- [x] o atributo *qtdLinha* é *private* e *final*, e define a quantidade de linhas da matriz mapa;  
+- [x] o atributo *qtdColuna* é *private* e *final*, e define a quantidade de colunas da matriz mapa;  
 - [ ] o atributo *mapa* é *private*, e é uma matriz, onde as duas dimensões são usadas para conter as letras aleatórias junto com as letras que formam as palavras procuradas;  
 - [ ] o constructor desta classe deve chamar o método *mapaEntrada* para iniciar as letras no atributo mapa;  
 - [ ] o método *mapaLinha* é *private*, e serve “desenhar" uma linha quando for necessário “desenhar” uma linha horizontal no mapa. Está linha tem o seu comprimento ajustado de acordo com a quantidade de colunas do mapa;  
