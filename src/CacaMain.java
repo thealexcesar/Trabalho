@@ -36,12 +36,10 @@ public class CacaMain {
         } while (opcao != 4);
         
         teclado.close();
+
+        CacaPalavras cacaPalavras = new CacaPalavras();
+        CacaMapa cacaMapa = new CacaMapa();
     }
-
-
-
-
-
 
     public static void main(String[] args) {
         new CacaMain();

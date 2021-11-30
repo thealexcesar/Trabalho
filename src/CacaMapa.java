@@ -8,7 +8,15 @@ public class CacaMapa {
         mapaEntrada();
     }
 
+    private void mapaLinha() {
+
+    }
+
     public void imprimir() {
+    }
+
+    public void pesquisa() {
+        
     }
 
     private void mapaEntrada() {

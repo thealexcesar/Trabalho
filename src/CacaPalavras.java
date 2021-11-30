@@ -9,13 +9,21 @@ public class CacaPalavras {
 
     }
 
-
-
-
-
-
-
-    public static void main(String[] args) {
-        new CacaPalavras();
+    public void palavrasMatriz( String[][] teste) {
     }
+
+    private void palavrasEntrada() {
+
+    }
+
+    public void imprimir() {
+
+    }
+
+    public void respostas() {
+
+    }
+    // public static void main(String[] args) {
+    //     new CacaPalavras();
+    // }
 }
