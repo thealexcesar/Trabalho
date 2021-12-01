@@ -1,29 +1,27 @@
-public class CacaPalavras {
+// public class CacaPalavras {
 
-    private short qtdLinha;
-    private short qtdColuna;
-    private String[][] palavras;
+//     // private final short qtdLinha;
+//     // private final short qtdColuna;
+//     // private String[][] palavras;
 
-    public CacaPalavras() {
-        
+//     // public CacaPalavras() {
+//         // new respostas();
+//     // }
 
-    }
+//     public void palavrasMatriz( String[][] teste) {
+//     }
 
-    public void palavrasMatriz( String[][] teste) {
-    }
+//     // private void palavrasEntrada() {
+// // 
+//     // }
 
-    private void palavrasEntrada() {
+//     public void imprimir() {
+//         System.out.println("Classe CacaPalavras - metodo imprimir");
 
-    }
+//     }
 
-    public void imprimir() {
+//     public void respostas() {
+//         System.out.println("Classe CacaPalavras - metodo imprimir");
 
-    }
-
-    public void respostas() {
-
-    }
-    // public static void main(String[] args) {
-    //     new CacaPalavras();
-    // }
-}
+//     }
+// }
